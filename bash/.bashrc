@@ -44,12 +44,10 @@ PURPLE="\033[01;35m"
 ORANGE="\033[1;38;5;208m"
 DEFAULT="\033[00;00m"
 
-#export PS1="[\[${PURPLE}\]\w\[${DEFAULT}\]]\n[\[${RED}\]\h \[${DEFAULT}\]\A$\[{DEFAULT}\]]\$ "
+export PS1="[\[${PURPLE}\]\w\[${DEFAULT}\]]\n[\[${BLUE}\]\h \[${DEFAULT}\]\!$\[${DEFAULT}\]]\$ "
 
-# non-fancy prompt (I don't use this anymore):
+# non-fancy prompt
 # export PS1="[\w]\n[\h \!]\$ "
-
-#export PS1="[\[${PURPLE}\]\w\[${DEFAULT}\]]\n[\[${RED}\]\h \[${DEFAULT}\]\A$\[{DEFAULT}\]]\$ "
 
 ##############################################################################
 # Work-specific bash configurations, such as prompts or special variables, can
